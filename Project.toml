@@ -1,0 +1,13 @@
+name = "RiverREM"
+uuid = "adc38c3d-5534-4827-b599-ecc63053e9d5"
+authors = ["Maarten Pronk <git@evetion.nl>, Deltares and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
